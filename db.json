@@ -1,28 +1,3 @@
 {
-  "tasks": [
-    {
-      "text": "9th week Review",
-      "day": "nov 20 2023",
-      "reminder": true,
-      "id": 1
-    },
-    {
-      "text": "R Rahul",
-      "day": "",
-      "reminder": true,
-      "id": 2
-    },
-    {
-      "text": "9th week Review",
-      "day": "nov 20 2023",
-      "reminder": true,
-      "id": 3
-    },
-    {
-      "text": "R Rahul",
-      "day": "",
-      "reminder": true,
-      "id": 4
-    }
-  ]
+  "tasks": []
 }

@@ -1,8 +1,8 @@
 import { Component, OnInit, Input,Output, EventEmitter } from '@angular/core';
 import { Task } from 'src/app/Task'; 
-import { faTimes } from '@fortawesome/free-solid-svg-icons';
-
-// import { MaterialIcon } from 'material-icons';
+import { faTimes } from '@fortawesome/free-solid-svg-icons'; 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MaterialIcon } from 'material-icons';
 
 
 @Component({

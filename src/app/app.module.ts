@@ -16,7 +16,8 @@ import { TaskItemComponent } from './components/task-item/task-item.component';
 import { AboutComponent } from './components/about/about.component';
 import { AddTaskComponent } from './components/add-task/add-task.component';
 import { FooterComponent } from './components/footer/footer.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 const appRoutes: Routes = [
   {path : '',component : TasksComponent},
@@ -41,6 +42,8 @@ const appRoutes: Routes = [
     HttpClientModule,
     RouterModule.forRoot(appRoutes,{enableTracing: true}),
     FormsModule,
+    BrowserAnimationsModule,
+    MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
