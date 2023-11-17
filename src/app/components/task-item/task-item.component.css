@@ -15,3 +15,13 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.task {
+    position: relative;
+  }
+
+.CheckMark {
+    position: absolute;
+    right: 0;; /* Adjust the top value as needed */
+    left: 30px; /* Adjust the left value based on the x mark size */
+  }
